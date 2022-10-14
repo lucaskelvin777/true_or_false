@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>True Or False</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/animations.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-toast-plugin/1.3.2/jquery.toast.css" integrity="sha512-8D+M+7Y6jVsEa7RD6Kv/Z7EImSpNpQllgaEIQAtqHcI0H6F4iZknRj0Nx1DCdB+TwBaS+702BGWYC0Ze2hpExQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="container" class="animate-jump">
+        <p>Acertos: <b id="hits">0</b>, Erros: <b id="mistakes">0</b></p>
+        <span>Diga se essa condição abaixo é <b>verdadeira</b> ou <b>falsa</b>:</span>
+        <h2 id="question">4 > 1?</h2>
+        <hr />
+        <div class="group-input">
+            <input type="radio" name="option" id="option_true" value="true">
+            <label for="option_true">Verdadeiro</label>
+        </div>
+        <div class="group-input">
+            <input type="radio" name="option" id="option_false" value="false">
+            <label for="option_false">Falso</label>
+        </div>
+    </div>
+    <div id="legenda">
+            <p>Legenda:</p>
+            <hr />
+            <p><b>></b>: Maior</p>
+            <p><b><</b>: Menor</p>
+            <p><b>>=</b>: Maior ou igual</p>
+            <p><b><=</b>: Menor ou igual</p>
+            <p><b>==</b>: Igual</p>
+        </div>
+    
+
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-toast-plugin/1.3.2/jquery.toast.min.js" integrity="sha512-zlWWyZq71UMApAjih4WkaRpikgY9Bz1oXIW5G0fED4vk14JjGlQ1UmkGM392jEULP8jbNMiwLWdM8Z87Hu88Fw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/utils.js"></script>
+    <script src="./js/scripts.js"></script>
+    
+</body>
+</html>
